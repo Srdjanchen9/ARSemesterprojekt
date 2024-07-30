@@ -1,0 +1,242 @@
+{
+    "name": "CarControls",
+    "maps": [
+        {
+            "name": "Car",
+            "id": "99303efe-c059-450d-8e25-41583018c8e4",
+            "actions": [
+                {
+                    "name": "MoveForward",
+                    "type": "Button",
+                    "id": "a3e4b3fb-9f78-4a9f-8feb-716fb3c468e1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveBackward",
+                    "type": "Button",
+                    "id": "3e474e98-5978-43c8-940e-82cb30fecf88",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TurnLeft",
+                    "type": "Button",
+                    "id": "bcc0c524-5887-4e83-a871-db261e8da002",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TurnRight",
+                    "type": "Button",
+                    "id": "a4b66bbc-7ca6-4047-9eae-0bd1601547c7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c94bba43-3837-49d7-b6f9-c4874441276f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f546ed6b-2351-4581-b3fe-f09477569d06",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67986779-b3c9-4834-9a0f-a3baf82fdb8f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78df34a7-08d6-421e-a1fb-41fba639ee94",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "ab60e632-76b9-49de-9cc6-b1ced0b6e150",
+            "actions": [
+                {
+                    "name": "Point",
+                    "type": "Value",
+                    "id": "30079c27-38a5-45c4-a304-9005a334d9c6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "df18d29e-b7f3-450c-a221-f2ea71bf41a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Srollwheel",
+                    "type": "Value",
+                    "id": "7413cc85-288b-4232-b882-8e85b924f697",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MiddleClick",
+                    "type": "Button",
+                    "id": "f9443c19-36b3-4276-885f-721c550a84a5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightClick",
+                    "type": "Button",
+                    "id": "0612213d-a3b5-45aa-a23c-7524628a7fe1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackDevicePosition",
+                    "type": "Value",
+                    "id": "d9fb4b33-beaf-4394-8819-08556cff558b",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackDeviceOrientation",
+                    "type": "Value",
+                    "id": "2151ff3e-f11a-414c-be7d-b154baf77099",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6f415631-b523-4702-9711-2558e54691de",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32ed5b4b-277d-4802-bbd2-b94b07e71e21",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de5743ad-06ff-41cf-9eed-e8c3932dd5c1",
+                    "path": "<Pointer>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Srollwheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a75722a-03ae-4634-8c87-8d78b0ce7111",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MiddleClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4bc4a0f9-532a-4b8f-a98f-fa85ecb8a0ce",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a9ffd87-031b-4679-9dea-2eeb4815e61f",
+                    "path": "<TrackedDevice>/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackDevicePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d3b6851-c639-4acb-9572-39d1479c1911",
+                    "path": "<TrackedDevice>/deviceOrientation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
